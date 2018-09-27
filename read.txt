@@ -1,0 +1,36 @@
+webpack4
+----------------------------------------------------------------------------------------------
+1.npm install webpack webpack-cli webpack-dev-server -g
+
+2. 新建文件夹 webpack-course  创建 src>index.js   dist>index.html    config > webpack.dev.js
+
+3.webpack --mode=development 开发打包   webpack --mode=production 生产环境打包
+
+4.打包  webpack --config=config/webpack.dev.js
+
+5.热更新启动 webpack-dev-server --config=config/webpack.dev.js
+
+---------------------------------------------------------------
+
+
+loader  安装
+---------------------------------------------------------------
+css-loader
+style-loader
+html-loader
+extract-loader
+file-loader
+
+
+
+babel相关loader
+----------------------------------------------------------------
+babel-loader 
+babel-core
+babel-cli
+babel-plugin-transform-es2015-arrow-functions
+新建.babelre 进行相关配置
+
+
+
+
